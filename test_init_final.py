@@ -1254,8 +1254,12 @@ class mainCog(commands.Cog):
 			command_list += ','.join(command[21]) + ' [할말]\n'     #!상태
 			command_list += ','.join(command[28]) + ' 사다리, 정산, 척살, 경주, 아이템\n'     #!채널설정
 			command_list += ','.join(command[34]) + ' ※ 관리자만 실행 가능\n\n'     #서버나가기
-			command_list += ','.join(command[22]) + '\n'     #보스탐
-			command_list += ','.join(command[23]) + '\n'     #!보스탐
+			command_list += ','.join(command[22]) + '\n'     #보스
+			command_list += ','.join(command[23]) + '\n'     #!보스
+			command_list += ','.join(command[24]) + '\n'     #!ㅄ
+			command_list += ','.join(command[25]) + '\n'     #!ㅂㅅ
+			command_list += ','.join(command[26]) + '\n'     #ㅄ
+			command_list += ','.join(command[27]) + '\n'     #ㅂㅅ
 			command_list += '[보스명]컷 또는 [보스명]컷 0000, 00:00\n'  
 			command_list += '[보스명] 컷 또는 [보스명] 컷 0000, 00:00\n'   
 			command_list += '[보스명]멍 또는 [보스명]멍 0000, 00:00\n'     
